@@ -1,0 +1,17 @@
+/* CLEAR
+------------------------------ */
+html,body {width:100%;height:100%;}
+html,body,ul,ol,dl,li,dt,dd,p,blockquote,fieldset,legend,img,form,h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+ul,ol,li,dl,dt,dd {list-style:none;}
+blockquote,fieldset,legend,img,form {border:0;}
+th,address {font-style:normal;font-weight:normal;}
+
+/* hiding */
+#header ul,
+#main-navigation {display:none;}
+
+/* general elements */
+body {font:normal 12pt/1.2 Arial,Helvetica,Sans,serif;background:#fff;text-align:left;}
+a {color:#000;text-decoration:none;}
+h1 {font-size:32pt;margin:0 0 14pt;}
+p {margin:0 0 12pt;}

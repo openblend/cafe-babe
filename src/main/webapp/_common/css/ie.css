@@ -1,0 +1,23 @@
+/*
+	element {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/_common/images/identity/logo-d1.png", sizingMethod="crop");}
+*/
+
+/* IE6/IE7 fixes
+--------------------------------- */
+
+
+
+/* IE6 fixes
+--------------------------------- */
+* html body {behavior:url(/_common/css/csshover.htc);background-image:none;}
+* html h1 a {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/_common/images/identity/cafebabe.png",sizingMethod="crop");}
+* html h1 a:hover {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/_common/images/identity/cafebabe-hover.png",sizingMethod="crop");}
+
+* html #site {padding:0;background:none;}
+* html #site .w {background:#fff;border:9px solid #8d6e39;border-top:0;}
+* html #footer {background:none;padding:0;}
+* html #footer ul {background:#fff;border:9px solid #8d6e39;border-bottom:0;}
+
+
+/* IE7 fixes
+--------------------------------- */

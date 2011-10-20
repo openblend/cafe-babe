@@ -1,0 +1,117 @@
+/* CLEAR
+------------------------------ */
+html,body {width:100%;height:100%;}
+html,body,ul,ol,dl,li,dt,dd,p,blockquote,fieldset,legend,img,form,h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+ul,ol,li,dl,dt,dd {list-style:none;}
+blockquote,fieldset,legend,img,form {border:0;}
+th,address {font-style:normal;font-weight:normal;}
+
+/* general elements */
+html {background:#dbc39a url(../images/layout/bg.jpg) repeat 0 0;}
+body {font:normal 62.5%/1.5 Arial,Helvetica,Sans,serif;background:url(../images/layout/bg-site-numbers.png) no-repeat 50% 9em;color:#5B5B5B;text-align:center;}
+a {color:#a5700d;text-decoration:underline;}
+a:hover {text-decoration:none;}
+p {margin:0 0 1em;}
+textarea,input {background:#fff url(../images/layout/bg-input.png) no-repeat 0 0;padding:2px;border:1px solid #cecece;line-height:1.25;}
+textarea {font-family:Arial,Helvetica,Garuda,serif;}
+button {cursor:pointer;border:0;}
+table {width:100%;clear:both;margin:0 0 1em;border-collapse:collapse;}
+.hidden {display:none;}
+
+h1 {width:310px;height:62px;margin:1.25em 0 1em;}
+h1 a {display:block;cursor:pointer;width:100%;height:100%;overflow:hidden;text-indent:-1000em;background:url(../images/identity/cafebabe.png) no-repeat 0 0;}
+h1 a:hover {background-image:url(../images/identity/cafebabe-hover.png);}
+
+h2 {font-size:1.1em;line-height:1.2;color:#43230e;text-transform:uppercase;padding:0 0 1em;margin:0 0 1em;background:url(../images/layout/hr.png) repeat-x 0 100%;}
+h2 a {text-decoration:none;color:#43230e;}
+h2 a:hover {text-decoration:underline;}
+h3 {font-size:1.4em;line-height:1.2;color:#a5700d;margin:0 0 .5em;}
+h3 a {text-decoration:none;color:#a5700d;}
+h3 a:hover {text-decoration:underline;}
+h4 {font-size:1em;color:#5B5B5B;margin:0 0 1em;}
+h4 a {text-decoration:none;color:#5B5B5B;}
+h4 a:hover {text-decoration:underline;}
+
+#site {width:798px;padding:0 0 16px;font-size:1.4em;margin:0 auto 1em;text-align:left;background:url(../images/layout/bg-site-wrapper-bot.png) no-repeat 0 100%;}
+#site .w {width:780px;padding:0 9px;background:url(../images/layout/bg-site-wrapper.png) repeat-y 0 0;}
+#header {padding:3% 3% 0;width:94%;position:relative;background:url(../images/layout/bg-header.png) no-repeat 100% 100%;}
+#future,
+#content {padding:1em 5% 1em 9%;width:86%;}
+#future {background:#f1f1f1;padding-top:3em;padding-bottom:3em;}
+
+#header ul {position:absolute;right:2%;top:5%;}
+#header ul li {float:left;}
+#header ul li a {display:block;color:#000;padding:.2em 1em .1em;border-right:1px solid #42210b;text-decoration:none;font-size:.857em;}
+#header ul li a:hover {background:#42210b;color:#fff;}
+#header ul li.last a {border:0;}
+#header p {margin:0 0 2em 6em;width:75%;}
+
+#main-navigation {margin-left:3.3em;display:block !important;}
+#main-navigation ul {position:static;right:auto;top:auto;float:left;}
+#main-navigation ul li {margin:0 1.5em 0 0;}
+#main-navigation ul li a {font-weight:bold;text-transform:uppercase;color:#42210b;font-size:1.2em;border:0;padding:0;}
+#main-navigation ul li a:hover {background:none;color:#42210b;}
+
+#footer {width:798px;margin:1em auto 0;padding:16px 0 0;background:url(../images/layout/bg-site-wrapper-top.png) no-repeat 0 0;display:block !important;}
+#footer ul {float:left;width:780px;padding:.5em 9px 1.5em;background:url(../images/layout/bg-site-wrapper.png) repeat-y 0 0;}
+#footer ul li {display:block;float:left;width:31%;margin:0 1%;}
+#footer ul li a {display:block;border-bottom:2px solid #fff;text-align:center;}
+#footer ul li a img {display:block;margin:0 auto;}
+
+/* paging */
+.paging {border-bottom:1px solid #ebebeb;padding:.5em 0 1em;margin:0 0 1em;width:100%;}
+.paging span {width:30%;float:left;}
+.paging ul {float:right;}
+.paging ul li {color:#000;display:inline;margin:0 .2em;}
+.paging ul li a {color:#000;text-decoration:none;}
+.paging ul li.active a {font-weight:bold;}
+
+.content {float:left;width:66%;margin:0 4% 0 0;}
+.sidebar {float:right;width:30%;}
+
+/* event */
+.event .date,
+.event .speakers {font-size:.786em;display:block;}
+.event .cms {margin:1em 0;}
+
+/* speaker */
+.speaker .photo {background:#fff;text-align:center;padding:1em 0;margin:0 0 1em;overflow:hidden;}
+.speaker .photo img {display:block;margin:0 auto;}
+.speaker .others li {margin:0 0 .25em;padding:0 0 0 1.8em;background:url(../images/icons/sound.png) no-repeat 2px 2px;}
+
+/* event archive */
+.archive {margin:0 0 1em;}
+.archive ul {width:100%;}
+.archive ul li {float:left;width:100%;margin:0 0 .5em;}
+.archive ul li .title {background:#d4b76d url(../images/icons/arrow-white-down.png) no-repeat 98% 50%;float:left;width:96%;padding:0 2%;}
+.archive ul li .title .date {color:#fff;display:block;float:left;margin:0 10px 0 0;padding:7px 3em 3px 0;background:url(../images/layout/slash-white.png) no-repeat 100% 0;}
+.archive ul li .title h3 {color:#fff;margin:0;padding:.2em 0;}
+.archive ul li .title h3 a {color:#fff;}
+.archive ul li .summary {display:block;color:#fff;}
+.archive ul li .summary a {color:#000;}
+.archive ul li .summary .i {width:96%;padding:2%;float:left;background:#d4b76d;}
+.archive ul li .summary .content .speakers {display:block;margin:0 0 1em;font-size:.768em;}
+.archive ul li .summary .cms {margin:0 0 2em;}
+.archive ul li .summary .comments {background:url(../images/icons/comment.png) no-repeat 0 1px;padding:0 0 0 1.25em;}
+.archive ul li .summary .photos {width:98%;padding:1%;background:#fff;margin:0 0 1em;}
+.archive ul li .summary .video {background:#fff;display:block;padding:.25em .5em;border:2px solid #fff;}
+.archive ul li .summary .video:hover {color:#fff;background:#999 url(../images/buttons/button-01-hover.png) repeat-x 0 0;}
+.archive ul li.off .summary {display:none;}
+.archive ul li.off .title {background-color:#999;background-image:url(../images/icons/arrow-white-right.png);cursor:pointer;}
+.archive ul li.off .title:hover {background-color:#d4b76d;background-image:url(../images/icons/arrow-white-down.png);}
+
+
+/* HACKS
+------------------------------ */
+.clear,
+.paging,
+.archive ul,
+#footer,
+#future,
+#main-navigation {display:inline-block;}
+.clear:after,
+.paging:after,
+.archive ul:after,
+#footer:after,
+#future:after,
+#main-navigation:after {content:".";display:block;height:0;font-size:0;clear:both;visibility:hidden;}
